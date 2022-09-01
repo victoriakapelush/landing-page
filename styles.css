@@ -107,14 +107,13 @@ ul {
     border-color: blue;
     width: 150px;
     height: 150px;
-    
 }
 
 .one, .two, .three, .four {
     width: 150px;
     height: 150px;
     margin-top: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     text-align: center;
 }
 
@@ -186,4 +185,17 @@ ul {
     border: 3px solid;
     border-radius: 10px;
     border-color: white;
+}
+
+.footer {
+    background-color:#1F2937;
+    color: white;
+    height: 100px;
+    width: auto;
+}
+
+.footer p {
+    text-align: center;
+    padding: 40px 40px;
+    font-family: Arial, sans-serif;
 }
