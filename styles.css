@@ -142,3 +142,48 @@ ul {
     padding-top: 0px;
     padding-bottom: 50px;
 }
+
+.section-four {
+    background-color: White;
+    height: auto;
+    width: auto;
+    padding: 70px 200px;
+    
+}
+
+.text-and-button {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 20px;
+    padding: 50px 50px;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.blue-inner-section {
+    background-color: #3882F6;
+    color: white;
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.sign-up-text {
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.action-button {
+    background-color: #3882F6;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: white;
+}
