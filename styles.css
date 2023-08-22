@@ -8,7 +8,69 @@ body {
     background-size: 100% 100%;
     position: relative;
     font-family: "Chalkduster", fantasy;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
 }
+
+/* create main page */
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.first-paragraph h1 {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+.first-paragraph h4 {
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.first-paragraph button, .second-paragraph button {
+    margin-top: 20px;
+    margin: 20px;
+    background-color: transparent;
+
+}
+
+.playlists{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.songs {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 30px;
+    margin: 20px 20px;
+}
+
+.second-paragraph h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.second-paragraph p {
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: end;
+    font-size: 20px;
+}
+
+/* create footer */
 
 footer {
     color: white;
